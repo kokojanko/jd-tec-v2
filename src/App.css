@@ -1,178 +1,179 @@
 @font-face {
-    font-family: Sneackers;
-    src: url(./fonts/Flying\ Sneakers.otf);
+  font-family: Sneackers;
+  src: url(./fonts/Flying\ Sneakers.otf);
 }
-.SidebarWrapper{
-    float: left;
-    width: auto;
-    margin: 1em;
-    float: left;
-    background-color: none;
-    position: absolute;
-    z-index: 1;
-    /* height: 50em; */
-    background: linear-gradient( #000000, #ffffff15);
-    margin-left: 1em;
-    margin-top: 3em;
+.SidebarWrapper {
+  float: left;
+  width: auto;
+  margin: 1em;
+  float: left;
+  background-color: none;
+  position: absolute;
+  z-index: 1;
+  /* height: 50em; */
+  background: linear-gradient(#000000, #ffffff15);
+  margin-left: 1em;
+  margin-top: 3em;
 }
-.SidebarWrapper *{
-    color: white;
+.SidebarWrapper * {
+  color: white;
 }
-.CorouselItem{
-    width: 100%;
-    height: 100%;
+.CorouselItem {
+  width: 100%;
+  height: 100%;
 }
-.GreetingsWrapper{
-    width: 100%;
-    display: flex;
-    justify-content: center;
+.GreetingsWrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.Greetings{
-    margin-top: 2em;
-    font-size: 5em;
-    transition: 2s;
-    width: fit-content;
+.Greetings {
+  margin-top: 2em;
+  font-size: 5em;
+  transition: 2s;
+  width: fit-content;
 }
-.Greetings *{
-    font-family: Sneackers;
-    text-align: center;
+.Greetings * {
+  font-family: Sneackers;
+  text-align: center;
 }
-.line{
-    border: solid black 2px;
+.line {
+  border: solid black 2px;
 }
-.CarouselWrapper{
-    margin-top: 4em;
+.CarouselWrapper {
+  margin-top: 4em;
 }
 
-.MainGreetings{
-    float: right;
-    position: relative;
-    margin-right: 20em;
+.MainGreetings {
+  float: right;
+  position: relative;
+  margin-right: 20em;
 }
-.logoSidebar{
-    margin-left: 1.5em;
-    margin-top: 1.5em;
-    width: 80%;
+.logoSidebar {
+  margin-left: 1.5em;
+  margin-top: 1.5em;
+  width: 80%;
 }
-.lineSidebar{
-    margin: 1em;
-    border: solid white 2px;
+.lineSidebar {
+  margin: 1em;
+  border: solid white 2px;
 }
-.FooterWrapper{
-    position: absolute;
-    margin-top: 52.7em;
-    width: 100%;
-    background-color: #0c0c0f;
-    height: 150px;
+.FooterWrapper {
+  position: absolute;
+  margin-top: 52.7em;
+  width: 100%;
+  background-color: #0c0c0f;
+  height: 150px;
 }
-.FooterItem{
-    width: 30%;
-    height: 150px;
-    margin-left: 2%;
-    float: left;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
+.FooterItem {
+  width: 30%;
+  height: 150px;
+  margin-left: 2%;
+  float: left;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
 }
-.logoFooter{
-    width: 60%;
-    height: 50%;
+.logoFooter {
+  width: 60%;
+  height: 50%;
 }
-.hero{
-    position: absolute;
-    width: 100%;
-    background-image: url(https://p4.wallpaperbetter.com/wallpaper/750/299/737/abstract-cgi-digital-art-wallpaper-preview.jpg);
-    background-size: 100% 100%;
-    
+.hero {
+  position: absolute;
+  width: 100%;
+  background-image: url(https://p4.wallpaperbetter.com/wallpaper/750/299/737/abstract-cgi-digital-art-wallpaper-preview.jpg);
+  background-size: 100% 100%;
 }
-.FooterContent{
-    text-align: center;
-    font-size: 0.8em;
+.FooterContent {
+  text-align: center;
+  font-size: 0.8em;
 }
-.SidebarItem:hover{
-    background-color: rgba(255, 255, 255, 0.055) !important;
-    color: rgb(40, 148, 143);
+.SidebarItem:hover {
+  background-color: rgba(255, 255, 255, 0.055) !important;
+  color: rgb(40, 148, 143);
 }
-.mantine-1htq4gn[data-active]{
-    background-color: rgba(24, 56, 88, 0.877) !important;
-    color: rgb(255, 255, 255) !important;
+.mantine-1htq4gn[data-active] {
+  background-color: rgba(24, 56, 88, 0.877) !important;
+  color: rgb(255, 255, 255) !important;
 }
-.SidebarWrapperKatalog{
-    margin-left: 1em;
-    float: left;
-    background: linear-gradient( #7a7a7a41, #ffffff15);
-    margin: 1em;
-    margin-top: 3em;
-    position: fixed;
+.SidebarWrapperKatalog {
+  margin-left: 1em;
+  float: left;
+  background: linear-gradient(#7a7a7a41, #ffffff15);
+  margin: 1em;
+  margin-top: 3em;
+  position: fixed;
 }
-.ItemsWrapper{
-    width: 60%;
-    float: left;
-    margin-left: 25%;
-    display: grid;
-    grid-template-columns: 30% 30% 30%;
-    gap: 3.5em;
-    margin-top: 6em;
+.ItemsWrapper {
+  width: 60%;
+  float: left;
+  margin-left: 25%;
+  display: grid;
+  grid-template-columns: 30% 30% 30%;
+  gap: 3.5em;
+  margin-top: 6em;
 }
-.CarouselInDrawer{
-    height: 300px;
-    width: 30%;
-    margin: 4em;
-    float: left;
+.CarouselInDrawer {
+  height: 300px;
+  width: 30%;
+  margin: 4em;
+  float: left;
 }
-.DiscInDrawer{
-    height: 300px;
-    width: 30%;
-    margin: 4em;
-    float: left;
+.DiscInDrawer {
+  height: 300px;
+  width: 30%;
+  margin: 4em;
+  float: left;
 }
-.HiddenDiscInDrawer{
-    width: 100%;
-    height: 40%;
-    overflow: hidden;
+.HiddenDiscInDrawer {
+  width: 100%;
+  height: 40%;
+  overflow: hidden;
 }
-.ButtonToShowMoreDisc{
-    margin-top: 3em;
+.ButtonToShowMoreDisc {
+  margin-top: 3em;
 }
-.WhereToBuy{
-    text-align: center;
-    margin-top: 3em;
-    float: left;
-    margin-left: 5%;
+.WhereToBuy {
+  text-align: center;
+  margin-top: 3em;
+  float: left;
+  margin-left: 5%;
 }
-.KatalogHeader{
-    width: 100%;
-    height: 50px;
-    display: flex;
-    justify-content: center;
-    margin-top: 1.3em;
+.KatalogHeader {
+  width: 100%;
+  height: 50px;
+  display: flex;
+  justify-content: center;
+  margin-top: 1.3em;
+}
+.ItemsWrapper {
+  text-align: center;
 }
 @media screen and (max-width: 1440px) {
-    .ItemsWrapper{
-        grid-template-columns: 40% 40% 40%;
-        margin-left: 19%;
-        
-    }
+  .ItemsWrapper {
+    grid-template-columns: 40% 40% 40%;
+    margin-left: 19%;
+  }
 }
 @media screen and (max-width: 1024px) {
-    .ItemsWrapper{
-        grid-template-columns: 50% 50%;
-        float: right;
-        margin-right: 7em;
-    }
+  .ItemsWrapper {
+    grid-template-columns: 50% 50%;
+    float: right;
+    margin-right: 7em;
+  }
 }
 @media screen and (max-width: 900px) {
-    .ItemsWrapper{
-        grid-template-columns: 100%;
-        float: right;
-        margin-right: 3em;
-    }
+  .ItemsWrapper {
+    grid-template-columns: 100%;
+    float: right;
+    margin-right: 3em;
+  }
 }
 @media screen and (max-width: 768px) {
-    .ItemsWrapper{
-        grid-template-columns: 100%;
-        float: right;
-        margin-right: 1em;
-    }
+  .ItemsWrapper {
+    grid-template-columns: 100%;
+    float: right;
+    margin-right: 1em;
+  }
 }

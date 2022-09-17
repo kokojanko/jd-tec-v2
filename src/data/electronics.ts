@@ -1,6 +1,6 @@
 import { IProduct } from "../models";
 
-export const products: IProduct[] = [
+export const electronics: IProduct[] = [
     {
       id: "PD-35W",
       title: 'Адаптер питания JD-Tec PD-35W',

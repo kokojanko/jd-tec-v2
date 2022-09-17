@@ -2,10 +2,9 @@ import React from "react";
 import Sidebar from "../components/Sidebar";
 import ItemOne from "../components/ItemCard";
 import { electronics } from "../data/electronics";
-import { other } from "../data/other";
 import ComponentAffix from "../components/Affix";
 
-function Katalog(){
+function Electronics(){
     return(
         <div>
             <div className="SidebarWrapperKatalog">
@@ -42,18 +41,10 @@ function Katalog(){
                 <div className="KatalogItem">
                     <ItemOne products={electronics[9]}/>
                 </div>
-                <div className="KatalogItem">
-                    <ItemOne products={other[0]}/>
-                </div>
-                <div className="KatalogItem">
-                    <ItemOne products={other[1]}/>
-                </div>
-                <div className="KatalogItem">
-                </div>
+                <ComponentAffix />
             </div>
-            <ComponentAffix />
         </div>
     )
 }
 
-export default Katalog
+export default Electronics

@@ -23,21 +23,10 @@ function Sidebar(){
                         defaultOpened                     
                     >
                         <NavLink className="SidebarItem" label="Весь каталог" component={Link} to="/katalog" active={location.pathname === '/katalog'} />
-                        <NavLink className="SidebarItem" label="Электроника" component={Link} to="/katalog" active={location.pathname === '/electronics'} />
-                        <NavLink className="SidebarItem" label="Бытовые товары" component={Link} to="/katalog" active={location.pathname === '/Beat'} />
+                        <NavLink className="SidebarItem" label="Электроника" component={Link} to="/electronics" active={location.pathname === '/electronics'} />
+                        <NavLink className="SidebarItem" label="Другие товары" component={Link} to="/other" active={location.pathname === '/other'} />
 
                     </NavLink>
-
-                    <NavLink 
-                    className="SidebarItem"
-                    label="Info"
-                    icon={<IconRobot size={16} stroke={1.5} />}
-                    childrenOffset={28}
-                    component="a"
-                    href="/info"
-                    active={location.pathname === '/info'}
-                    
-                    />
                 </Navbar.Section>
             </Box>
         </div>
