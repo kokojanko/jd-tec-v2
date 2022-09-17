@@ -1,0 +1,53 @@
+{/* <div className='MainGreetings'>
+                <div className="GreetingsWrapper">
+                    <Spring
+                        from={{opacity: 0}}
+                        to={{
+                        opacity: 1
+                        }}
+                        delay={1000}
+                        config={config.molasses}
+                        >
+                        {styles =>(
+                            <animated.div style={styles} className="Greetings">
+                                <div>Welcome</div>
+                                <Spring
+                                from={{width: "0%", marginLeft: "50%"}}
+                                to={{width: "100%", marginLeft: "0%"}}
+                                delay={3000}
+                                config={config.molasses}
+                                >
+                                    {styless => (
+                                        <animated.div style={styless} className="grLineWrapper"><div className="line grLine"/></animated.div>
+                                    )}
+                                </Spring>
+                                <div>to JD-tec</div>
+                            </animated.div>
+                            )}
+                        </Spring>
+                    </div>
+                    
+                <div className='CarouselWrapper'>
+                    <Carousel
+                        sx={{ maxWidth: 800 }}
+                        mx="auto"
+                        withIndicators
+                        height={500}
+                        styles={{
+                            indicator: {
+                            width: 12,
+                            height: 4,
+                            transition: 'width 250ms ease',
+
+                            '&[data-active]': {
+                                width: 40,
+                            },
+                            },
+                        }}
+                        >
+                        <Carousel.Slide><img className='CorouselItem' src="https://cdn1.ozone.ru/s3/multimedia-k/wc1000/6366961052.jpg"/></Carousel.Slide>
+                        <Carousel.Slide><img className='CorouselItem' src="https://cdn1.ozone.ru/s3/multimedia-n/wc1000/6332924063.jpg"/></Carousel.Slide>
+                        <Carousel.Slide><img className='CorouselItem' src="https://cdn1.ozone.ru/s3/multimedia-4/wc1000/6332941252.jpg"/></Carousel.Slide>
+                    </Carousel>
+                </div>
+            </div> */}
